@@ -3,6 +3,7 @@ import 'package:recipes/screens/details.dart';
 import 'package:recipes/utils/data.dart';
 
 class HomePage extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     var body = Container(
