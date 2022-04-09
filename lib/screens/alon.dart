@@ -15,7 +15,7 @@ class HomeAlon extends StatelessWidget {
           SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
           itemBuilder: (BuildContext context, int index) {
             return Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(28.0),
               child: InkWell(
                 onTap: () {
                   Navigator.push(
@@ -77,7 +77,7 @@ class HomeAlon extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Color(0xff263341),
-        title: Text('Type of food'),
+        title: Text('หน้าหลัก'),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.search),

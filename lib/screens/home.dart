@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
           SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
           itemBuilder: (BuildContext context, int index) {
             return Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(13.0),
               child: InkWell(
                 onTap: () {
                   Navigator.push(
@@ -77,7 +77,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Color(0xff263341),
-        title: Text('Recipes'),
+        title: Text('สูตรอาหาร'),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.search),

@@ -37,7 +37,7 @@ class DetailsPage extends StatelessWidget {
             physics: BouncingScrollPhysics(),
             child: Column(
               children: <Widget>[
-                Text('Nutrition',
+                Text('โภชนาการ',
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
@@ -46,7 +46,7 @@ class DetailsPage extends StatelessWidget {
                   nutrients: recipe.nutrients,
                 ),
                 Divider(color: Colors.white, endIndent: 40.0, indent: 40.0),
-                Text('Ingredients',
+                Text('วัตถุดิบสำคัญ',
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
@@ -55,7 +55,7 @@ class DetailsPage extends StatelessWidget {
                   ingredients: recipe.ingredients,
                 ),
                 Divider(color: Colors.white, endIndent: 40.0, indent: 40.0),
-                Text('Steps',
+                Text('ขั้นตอนการทำ',
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,

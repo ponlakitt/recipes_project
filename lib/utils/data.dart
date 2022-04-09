@@ -4,110 +4,206 @@ class Data {
   static List<Recipe> recipes = [
     Recipe(
         id: '1',
-        title: 'Mo:Mo',
+        title: 'สเต็ก',
         imageUrl:
-        'https://images.unsplash.com/photo-1496116218417-1a781b1c416c?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
+        'https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80',
         nutrients: [
-          Nutrients(name: 'Calories', weight: '200', percent: 0.7),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'แคลอรี่', weight: '289gm', percent: 0.7),
+          Nutrients(name: 'โปรตีน', weight: '24gm', percent: 0.5),
+          Nutrients(name: 'ไขมัน', weight: '20gm', percent: 0.5),
         ],
         steps: [
-          'Gather the ingredients.',
-          'Pull a double shot of espresso into a cappuccino cup.',
-          'Foam the milk to double its original volume.'
-              'Top the espresso with foamed milk right after foaming. When initially poured, cappuccinos are only espresso and foam, but the liquid milk quickly settles out of the foam to create the (roughly) equal parts foam, steamed milk, and espresso for which cappuccino is known.',
-          'Serve immediately.'
+          'เตรียมเนื้อสันคอ ล้างให้สะอาดด้วยเบ็คกิ้งโซดาผสมเกลือ จากนั้นล้างน้ำสุดท้ายด้วยน้ำเปล่า จากนั้นให้ล้างน้ำสุดท้ายด้วยน้ำเปล่า โดยเปิดน้ำใส่กะละมัง ให้น้ำไหลผ่านจนกว่าน้ำในกะลังมากจะใส',
+          'นำเนื้อสันคอมาทุบให้ทั่ว แค่พอให้แบนลงเล็กน้อยเท่านั้น จากนั้นใช้ส้อมจิ้มให้ทั่ว กระบวนนี้จะช่วยให้นุ่มขึ้น เครื่องปรุงทั้งหมดจะสามารถแทรกเข้าไปในเนื้อ'
+              'จากนั้นนำส่วนผสมพริกไทยดำ พริกไทยดซอสปรุงรส นมข้นจืด ออริกาโน่ป่น นำมาหมักเข้าด้วยกัน นวดอย่างเบามือให้เครื่องปรุงซึมเข้าเนื้อให้ทั่ว นำใส่กล่องเก็บเข้าตู้เย็น 1 คืน',
+          'ตั้งกระทะโดยใช้ไฟปานกลาง รอจนกระทะร้อน ใส่เนยสด และหเนื้อที่หมักไว้ลงไปทอดให้สุกทั้ง 2 ด้าน ปรุงรสด้วย เกลือป่น พริกไทยป่น น้ำเปล่าเล็กน้อย'
         ],
         ingredients: [
-          '2 shots espresso (a double shot)',
-          '4 ounces milk'
+          'เนื้อสันคอ',
+          'พริกไทยดำ เนย เกลือ',
+          'ออริกาโน่ป่น',
+          'นมข้นจืด'
         ]),
     Recipe(
         id: '2',
-        title: 'Cappuccino',
+        title: 'เคบับ',
         imageUrl:
-        'https://images.unsplash.com/photo-1444418185997-1145401101e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1391&q=80',
+        'https://images.unsplash.com/photo-1562059390-a761a084768e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1119&q=80',
         nutrients: [
-          Nutrients(name: 'Calories', weight: '200', percent: 0.7),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
-          Nutrients(name: 'Fat', weight: '10gm', percent: 0.3),
+          Nutrients(name: 'แคลอรี่', weight: '465gm', percent: 0.9),
+          Nutrients(name: 'โปรตีน', weight: '22gm', percent: 0.4),
+          Nutrients(name: 'แป้ง', weight: '2gm', percent: 0.2),
+          Nutrients(name: 'ไขมัน', weight: '40gm', percent: 0.7),
         ],
         steps: [
-          'Gather the ingredients.',
-          'Pull a double shot of espresso into a cappuccino cup.',
-          'Foam the milk to double its original volume.'
-              'Top the espresso with foamed milk right after foaming. When initially poured, cappuccinos are only espresso and foam, but the liquid milk quickly settles out of the foam to create the (roughly) equal parts foam, steamed milk, and espresso for which cappuccino is known.',
-          'Serve immediately.'
+          'ทำเครื่องแกงหมักไก่ โดยเตรียมครกกับสาก ใส่ขิงแก่ พริกไทยเม็ด ลูกผักชี ยี่หร่า ผงขมิ้น ออริกาโน่ พริกปาปริก้า ตำรวมกันให้ละเอียด',
+          'เตรียมชามผสม ใส่เครื่องแกงที่ตำไว้ลงไป ตามด้วยโยเกิร์ต เกลือ ซอสมะเขือเทศ น้ำมันมะกอก คนส่วนผสมให้เข้ากัน'
+              'ใส่เนื้อสันในไก่ลงไป คลุกเครื่องแกงให้เข้าเนื้อไก่จนทั่ว จากนั้น ใช้พลาสติกแรปหรือผ้าขาวบางปิด แล้วนำไปหมักทิ้งไว้ในตู้เย็น 1 ชั่วโมง',
+          'นำเนื้อไก่ที่หมักจนได้ที่ มาย่างบนเตาถ่าน เตาย่าง หรือ หากใครมีหม้ออบลมร้อน ก็สามารถใช้ได้ ย่างจนกว่าเนื้อไก่จะสุก'
         ],
         ingredients: [
-          '2 shots espresso (a double shot)',
-          '4 ounces milk'
+          'เนื้อวัว',
+          'เครื่องแกง',
+          'หัวหอมทอด',
+          'น้ำจิ้มภาคใต้'
         ]),
     Recipe(
         id: '3',
-        title: 'Spaghetti',
+        title: 'ซี่โครงย่าง',
         imageUrl:
-        'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
+        'https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80',
         nutrients: [
-          Nutrients(name: 'Calories', weight: '100', percent: 0.2),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.7),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.6),
-          Nutrients(name: 'Fat', weight: '10gm', percent: 0.3),
+          Nutrients(name: 'แคลอรี่', weight: '209gm', percent: 0.4),
+          Nutrients(name: 'โปรตีน', weight: '20gm', percent: 0.5),
+          Nutrients(name: 'ไขมัน', weight: '14gm', percent: 0.4),
         ],
         steps: [
-          'Gather the ingredients.',
-          'Pull a double shot of espresso into a cappuccino cup.',
-          'Foam the milk to double its original volume.'
-              'Top the espresso with foamed milk right after foaming. When initially poured, cappuccinos are only espresso and foam, but the liquid milk quickly settles out of the foam to create the (roughly) equal parts foam, steamed milk, and espresso for which cappuccino is known.',
-          'Serve immediately.'
+          'หมักซี่โครงหมูก่อนด้วย เกลือโรยให้ทั่วซี่โครง รากผักชี กระเทียมโขลก พริกไทยดำโขลก หลังจากโขลกจนแหลกละเอียดแล้วนำใส่ชาม ปรุงรสด้วยซอสหอยนางรม ซีอิ๊วขาว เหล้าจีน น้ำผึ้งและน้ำมันพืช ',
+          'หลังจากนั้นหมักซี่โครง ใส่ตู้เย็นไว้ 2 ชั่วโมง',
+          'ระหว่างรอหมักซี่โครงหมู มาทำน้ำจิ้มแจ่วกันผสม พริกป่น ข้าวคั่ว ปรุงรสด้วยน้ำปลา มะนาว รสชาติตามชอบ แล้วโรยต้นหอมซอย หอมแดงซอย ผักชีฝรั่งซอย อ่านต่อได้ที่ '
+              'นำมาย่างบนเตาด้วยไฟอ่อนๆ จนสุก'
         ],
         ingredients: [
-          '2 shots espresso (a double shot)',
-          '4 ounces milk'
+          'เนื้อวัว',
+          'เกลือ พริกไทยดำ รากผักชี',
+          'ซอสหอย เหล้าจีน',
+          'นำ้มัน น้ำผึ้ง'
         ]),
     Recipe(
         id: '4',
-        title: 'Pizza',
+        title: 'พาสต้า',
         imageUrl:
-        'https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
+        'https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1232&q=80',
         nutrients: [
-          Nutrients(name: 'Calories', weight: '200', percent: 0.7),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'แคลอรี่', weight: '333gm', percent: 0.7),
+          Nutrients(name: 'โปรตีน', weight: '6gm', percent: 0.2),
+          Nutrients(name: 'แป้ง', weight: '75gm', percent: 0.7),
+          Nutrients(name: 'ไขมัน', weight: '1gm', percent: 0.1),
         ],
         steps: [
-          'Gather the ingredients.',
-          'Pull a double shot of espresso into a cappuccino cup.',
-          'Foam the milk to double its original volume.'
-              'Top the espresso with foamed milk right after foaming. When initially poured, cappuccinos are only espresso and foam, but the liquid milk quickly settles out of the foam to create the (roughly) equal parts foam, steamed milk, and espresso for which cappuccino is known.',
-          'Serve immediately.'
+          'ต้มพาสต้าให้สุกนิ่ม ด้วยเวลา 7-10 นาทีเมื่อสุกแล้วจึงตักใส่จานพัก',
+          'ใช้เนยละลายลงในกระทะจนร้อนและนำกระเทียม, หัวหอม, แครอท, เห็ดและเนื้อหมูหรือไก่ลงไปผัดให้สุกหอม',
+          'เติมน้ำและผัดต่อจนน้ำง่วน'
+              'เมื่อสุกหอมแล้วปรุงรสด้วยเกลือและน้ำตาล,ซอสมะเขือเทศ จนได้รสชาติที่ชอบราดลงบนพาสต้าที่เตรียม'
         ],
         ingredients: [
-          '2 shots espresso (a double shot)',
-          '4 ounces milk'
+          'พาสต้า',
+          'ซอสมะเขือเทศ เนย นเกลือ น้ำตาล',
+          'เห็ด',
+          'หัวหอม'
         ]),
     Recipe(
         id: '5',
-        title: 'Pizza',
+        title: 'แฮมเบอร์เกอ',
         imageUrl:
-        'https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
+        'https://images.unsplash.com/photo-1544719437-6347fe38444d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
         nutrients: [
-          Nutrients(name: 'Calories', weight: '200', percent: 0.7),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'แคลอรี่', weight: '266gm', percent: 0.6),
+          Nutrients(name: 'โปรตีน', weight: '13gm', percent: 0.3),
+          Nutrients(name: 'แป้ง', weight: '31gm', percent: 0.7),
+          Nutrients(name: 'ไขมัน', weight: '10gm', percent: 0.4),
         ],
         steps: [
-          'Gather the ingredients.',
-          'Pull a double shot of espresso into a cappuccino cup.',
-          'Foam the milk to double its original volume.'
-              'Top the espresso with foamed milk right after foaming. When initially poured, cappuccinos are only espresso and foam, but the liquid milk quickly settles out of the foam to create the (roughly) equal parts foam, steamed milk, and espresso for which cappuccino is known.',
-          'Serve immediately.'
+          'ทำหอมหัวใหญ่คาราเมลโดยผัดหอมหัวใหญ่กับเนยและน้ำมันจนสุกนุ่มและใส ประมาณ 15-20 นาที ใส่น้ำส้มสายชูบัลซามิก เกลือ และพริกไทย ผัดต่ออีก 5-10 นาที ตักขึ้น พักไว้',
+          'ตั้งกระทะย่างให้ร้อนจัด สไลซ์ขนมปังเบอร์เกอร์ ทาเนยให้ทั่ว ย่างขนมปังให้เหลืองหอม ตักขึ้น จากนั้นย่างเนื้อเบอร์เกอร์ให้เกรียมหอมและสุกตามความชอบ ตักขึ้น',
+          'ใส่เนื้อเบอร์เกอร์บนขนมปัง ใส่ชีส มะเขือเทศ เบคอน พริกดอง และหอมใหญ่คาราเมล ใส่ซอสบาร์บีคิว (ถ้าชอบ) ประกบด้วยขนมปัง เสิร์ฟพร้อมมันฝรั่งทอด'
         ],
         ingredients: [
-          '2 shots espresso (a double shot)',
-          '4 ounces milk'
+          'เนื้อวัว',
+          'ขนมปังเบอร์เกอร์',
+          'มะเขือเทศ ชีส เบคอน ',
+          'เนยจืดเล็กน้อย'
         ]),
+    Recipe(
+        id: '6',
+        title: 'ยำไข่ต้ม',
+        imageUrl:
+        'https://images.unsplash.com/photo-1593898710828-935576df601d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+        nutrients: [
+          Nutrients(name: 'แคลอรี่', weight: '165gm', percent: 0.3),
+          Nutrients(name: 'โปรตีน', weight: '14gm', percent: 0.4),
+          Nutrients(name: 'แป้ง', weight: '1gm', percent: 0.1),
+          Nutrients(name: 'ไขมัน', weight: '10gm', percent: 0.3),
+        ],
+        steps: [
+          'ผสมพริก น้ำมะนาว น้ำปลา และน้ำตาลทรายเข้าด้วยกัน คนผสมจนน้ำตาลทรายละลายหมด ชิมรสตามชอบ',
+          'ใส่ไข่ต้ม หอมใหญ่ มะเขือเทศ และขึ้นฉ่ายซอย ใส่น้ำยำ',
+          'เคล้าผสมอย่างเบามือ ตักใส่จาน พร้อมรับประทาน'
+              'ใส่ไข่ต้ม หอมใหญ่ มะเขือเทศ และขึ้นฉ่ายซอย ใส่น้ำยำ เคล้าผสมอย่างเบามือ ตักใส่จาน พร้อมรับประทาน'
+        ],
+        ingredients: [
+          'ไข่เป็ด หอมใหญ่ พริกขี้หนู',
+          'เน้ำมะนาว น้ำปลา น้ำตาลทราย',
+          'มะเขือเทศ'
+        ]),
+    Recipe(
+        id: '7',
+        title: 'พิซซ่า',
+        imageUrl:
+        'https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+        nutrients: [
+          Nutrients(name: 'แคลอรี่', weight: '329gm', percent: 0.7),
+          Nutrients(name: 'โปรตีน', weight: '13gm', percent: 0.4),
+          Nutrients(name: 'แป้ง', weight: '36gm', percent: 0.7),
+          Nutrients(name: 'ไขมัน', weight: '14gm', percent: 0.4),
+        ],
+        steps: [
+          'ผสมแป้งขนมปังกับยีสต์ให้เข้ากัน จากนั้นก็ทำหลุมบนแป้ง เตรียมไว้',
+          'นำนมสดไปอุ่นในไมโครเวฟพออุ่น ๆ จากนั้นใส่เกลือป่นลงไปในนมคนผสมให้เข้ากัน เทนมอุ่นลงไปในหลุมแป้ง ใช้มือกวนผสมสัก 2-3 ที ใส่น้ำมันมะกอกลงไป นวดให้เข้ากันจนแป้งไม่ติดมือ พักแป้งให้โดว์ให้ขึ้นเป็น 1 เท่า นานประมาณ 30-50 นาที จากนั้นนำแป้งที่โดว์มานวดอีกครั้ง แล้วรีดให้แบน หนาประมาณ 1 เซนติเมตร เตรียมไว้',
+          'ถาดที่ใส่สำหรับอบพิซซ่าใช้ขนาด 9x9 นิ้ว ทาพิมพ์ด้วยเนย (หากไม่มีเนยก็ทาด้วยน้ำมันพืช) เพื่อไม่ให้แป้งติดพิมพ์ โรยหน้าด้วยมอสซาเรลล่าชีสขูดตามชอบ '
+              'นำเข้าเตาอบใช้ไฟบน-ล่างที่อุณหภูมิ 185 องศาเซลเซียส นานประมาณ 15 นาที (ตามขนาดของเตาอบ เวลาอาจเปลี่ยนแปลงได้ โดยใช้วิธีสังเกต) หรือใช้ไฟล่างที่อุณหภูมิ  200 องศาเซลเซียส นานประมาณ 12  นาที จากนั้นใช้ไฟบน-ล่างอีก 5 นาที เพื่อให้หน้าพิซซ่าเกรียมนิด ๆ ก็ได้ ใช้มีดตัดเป็นชิ้น ๆ พร้อมเสิร์ฟ'
+        ],
+        ingredients: [
+          'แป้งขนมปัง ',
+          'ยีสต์ นมสด เกลือ',
+          'น้ำตาลทราย',
+          'น้ำมันมะกอก'
+        ]),
+    Recipe(
+        id: '8',
+        title: 'น้ำแดงโซดา',
+        imageUrl:
+        'https://images.unsplash.com/photo-1472245088132-ccd50746725c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80',
+        nutrients: [
+          Nutrients(name: 'แคลอรี่', weight: '150gm', percent: 0.5),
+          Nutrients(name: 'น้ำตาล', weight: '38gm', percent: 0.6),
+          Nutrients(name: 'โซเดียม', weight: '50gm', percent: 0.5),
+        ],
+        steps: [
+          'ใส่น้ำแดง',
+          'ตามด้วยน้ำมะนาว 20 ml แล้วคนผสมให้เข้ากัน',
+          ' ใส่โซดาเล็กน้อย แล้วคนให้เข้ากัน'
+              'ใส่น้ำแข็งให้เต็มแก้ว ตามด้วยโซดา พร้อมเสิร์ฟ'
+        ],
+        ingredients: [
+          'น้ำหวานกลิ่นสละ',
+          'ผงมะนาวแท้ หรือน้ำมะนาวคั้น',
+          'โซดา',
+          'น้ำแข็ง'
+        ]),
+    Recipe(
+        id: '9',
+        title: 'ลาเต้',
+        imageUrl:
+        'https://images.unsplash.com/photo-1413745094207-a01b234cc32f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80',
+        nutrients: [
+          Nutrients(name: 'แคลอรี่', weight: '107gm', percent: 0.2),
+          Nutrients(name: 'โปรตีน', weight: '5gm', percent: 0.1),
+          Nutrients(name: 'แป้ง', weight: '10gm', percent: 0.3),
+          Nutrients(name: 'ไขมัน', weight: '5gm', percent: 0.2),
+
+        ],
+        steps: [
+          'นำเอสเพรสโซ่ ผสมกับนมข้นหวานและนมข้นจืด คนให้เข้ากัน',
+          'เทน้ำแข็งลงไปในแก้ว บีบไซรัปด้านในแก้วให้ทั่ว',
+          'ตามด้วยนมสด และเอสเพรสโซ่ที่ผสมกับนมผสมแล้ว'
+              'บีบวิปครีมลงไปบนลาเต้เย็น แล้วราดคาราเมล จะได้ทั้งความเข้มข้น หวาน มัน'
+        ],
+        ingredients: [
+          'กาแฟ เอสเพรสโซ่',
+          'นมสด นมข้นหวาน  นมข้นจืด',
+          'วิปครีม',
+          'ไซรัป'
+        ])
   ];
 }
